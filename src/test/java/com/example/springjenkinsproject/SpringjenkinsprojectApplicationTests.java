@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @SpringBootTest
 class SpringjenkinsprojectApplicationTests {
 	//to check if the test process is auotmated or not with the help of jenkins
-//	public static Logger logger = LoggerFactory.getLogger(SpringjenkinsprojectApplication.class);
+	public static Logger logger = LoggerFactory.getLogger(SpringjenkinsprojectApplication.class);
 
 	@Test
 	public void contextLoads() {
